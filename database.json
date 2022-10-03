@@ -1,0 +1,384 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Janifer Valett",
+      "email": "jvalett0@networksolutions.com",
+      "address": "4854 Thierer Crossing",
+      "phoneNumber": "421-417-3623",
+      "isProvider": false
+    },
+    {
+      "id": 2,
+      "fullName": "Lindi Yakolev",
+      "email": "lyakolev1@trellian.com",
+      "address": "72087 Ohio Way",
+      "phoneNumber": "938-252-6715",
+      "isProvider": false
+    },
+    {
+      "id": 3,
+      "fullName": "Casey Tydeman",
+      "email": "ctydeman2@smh.com.au",
+      "address": "693 Brown Rd",
+      "phoneNumber": "870-714-6969",
+      "isProvider": false
+    },
+    {
+      "id": 4,
+      "fullName": "Editha Andrus",
+      "email": "eandrus3@huffingtonpost.com",
+      "address": "7 Myrtle Avenue",
+      "phoneNumber": "345-409-4695",
+      "isProvider": false
+    },
+    {
+      "id": 5,
+      "fullName": "Godfree Lawn",
+      "email": "glawn4@pinterest.com",
+      "address": "918 Washington Center",
+      "phoneNumber": "378-411-0631",
+      "isProvider": false
+    },
+    {
+      "id": 6,
+      "fullName": "Gustave Cosbey",
+      "email": "gcosbey5@omniture.com",
+      "address": "19 Montana Park",
+      "phoneNumber": "967-611-1309",
+      "isProvider": false
+    },
+    {
+      "id": 7,
+      "fullName": "Briant Elsop",
+      "email": "belsop6@163.com",
+      "address": "1 Raven Terrace",
+      "phoneNumber": "437-351-1184",
+      "isProvider": false
+    },
+    {
+      "id": 8,
+      "fullName": "Christie Parchment",
+      "email": "cparchment7@wikipedia.org",
+      "address": "52902 Butternut Road",
+      "phoneNumber": "748-927-6581",
+      "isProvider": false
+    },
+    {
+      "id": 9,
+      "fullName": "Kevina Biaggioli",
+      "email": "kbiaggioli8@artisteer.com",
+      "address": "17 Bunting Trail",
+      "phoneNumber": "330-877-0836",
+      "isProvider": false
+    },
+    {
+      "id": 10,
+      "fullName": "Benni Chasle",
+      "email": "bchasle9@wired.com",
+      "address": "15244 Reinke Alley",
+      "phoneNumber": "793-449-6944",
+      "isProvider": false
+    },
+    {
+      "id": 11,
+      "fullName": "Berri Dooler",
+      "email": "bdoolera@google.ru",
+      "address": "865 Washington Street",
+      "phoneNumber": "286-550-8585",
+      "isProvider": false
+    },
+    {
+      "id": 12,
+      "fullName": "Calvin MacNair",
+      "email": "cmacnairb@ning.com",
+      "address": "13 Mcbride Street",
+      "phoneNumber": "650-631-2709",
+      "isProvider": false
+    },
+    {
+      "id": 13,
+      "fullName": "Adam Chance",
+      "email": "adamchance118@gmail.com",
+      "address": "1514 Lucky Pick Ln",
+      "phoneNumber": "615-812-7837",
+      "isProvider": true
+    },
+    {
+      "id": 14,
+      "fullName": "Dwane Johnson",
+      "email": "therock@therock.com",
+      "address": "4206 Rock Rd",
+      "phoneNumber": "994-677-1213",
+      "isProvider": true
+    },
+    {
+      "email": "wefwerfewef@dsdd.com",
+      "fullName": "hduihduwhuw",
+      "address": "erewr3r3rw",
+      "phoneNumber": "3334445555",
+      "isProvider": false,
+      "id": 15
+    },
+    {
+      "email": "brandonh@gmail.com",
+      "fullName": "Brandon Herbison",
+      "address": "123 Main St",
+      "phoneNumber": "931-209-4863",
+      "isProvider": false,
+      "id": 16
+    }
+  ],
+  "providers": [
+    {
+      "id": 1,
+      "userId": 13,
+      "payRate": 50.25,
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "userId": 14,
+      "payRate": 32.5,
+      "locationId": 1
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "city": "McEwen"
+    },
+    {
+      "id": 2,
+      "city": "Dickson"
+    },
+    {
+      "id": 3,
+      "city": "Nashville"
+    },
+    {
+      "id": 4,
+      "city": "Fairview"
+    }
+  ],
+  "serviceFrequencies": [
+    {
+      "id": 1,
+      "frequency": "One Time"
+    },
+    {
+      "id": 2,
+      "frequency": "Weekly"
+    },
+    {
+      "id": 3,
+      "frequency": "Bi-Weekly"
+    },
+    {
+      "id": 4,
+      "frequency": "Monthly"
+    },
+    {
+      "id": 5,
+      "frequency": "Quarterly"
+    },
+    {
+      "id": 6,
+      "frequency": "Annually"
+    }
+  ],
+  "listings": [
+    {
+      "userId": 1,
+      "address": "918 Washington Center",
+      "description": "Just need a basic yard mowing, and weedeating",
+      "locationId": 1,
+      "acreage": 0.5,
+      "frequencyId": 1,
+      "dateCompleted": "Thurs Sep 22 2022",
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "address": "693 Brown Road",
+      "description": "Need the whole farm mowed and weedeaten, and hedges trimmed",
+      "locationId": 1,
+      "acreage": 4.5,
+      "frequencyId": 1,
+      "dateCompleted": "Thurs Sep 22 2022",
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "address": "123 My St",
+      "description": "Yard stuff",
+      "locationId": 1,
+      "acreage": 3,
+      "frequencyId": 1,
+      "dateCompleted": "Thurs Sep 22 2022",
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "address": "234 Street Ln",
+      "description": "All the Fixings",
+      "locationId": 1,
+      "acreage": 3,
+      "frequencyId": 1,
+      "dateCompleted": "Thurs Sep 22 2022",
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "address": "456 Help Me Ave",
+      "description": "Help me not be sad",
+      "locationId": 1,
+      "acreage": 5,
+      "frequencyId": 1,
+      "dateCompleted": "Thurs Sep 22 2022",
+      "id": 5
+    },
+    {
+      "userId": 6,
+      "address": "123 my road",
+      "description": "need front and back done",
+      "locationId": 1,
+      "acreage": 2.5,
+      "frequencyId": 3,
+      "dateCompleted": "Tues Sep 27 2022",
+      "id": 6
+    },
+    {
+      "userId": 7,
+      "address": "123 Street Rd",
+      "description": "Whole yard mowed",
+      "scheduledDate": "2022-09-30",
+      "dateCompleted": "",
+      "locationId": 1,
+      "acreage": 5,
+      "frequencyId": 2,
+      "id": 7
+    },
+    {
+      "userId": 6,
+      "address": "456 Authority Ln",
+      "description": "Everything cut and everything trimmed",
+      "scheduledDate": "2022-09-24",
+      "locationId": 1,
+      "dateCompleted": "",
+      "acreage": 1,
+      "frequencyId": 2,
+      "id": 8
+    },
+    {
+      "userId": 6,
+      "address": "645 Truman St",
+      "description": "Need all of my small yard cut",
+      "scheduledDate": "2022-09-30",
+      "locationId": 1,
+      "acreage": 0.34,
+      "frequencyId": 2,
+      "dateCompleted": "",
+      "id": 9
+    },
+    {
+      "userId": 9,
+      "address": "1000 Figma Way",
+      "description": "Just a front and side yard",
+      "scheduledDate": "2022-09-17",
+      "locationId": 1,
+      "acreage": 0.75,
+      "frequencyId": 3,
+      "dateCompleted": "",
+      "id": 10
+    },
+    {
+      "userId": 11,
+      "address": "2057 Park Ave",
+      "description": "Just some trimming",
+      "locationId": 1,
+      "acreage": 0.15,
+      "frequencyId": 3,
+      "dateCompleted": "Thurs Sep 22 2022",
+      "id": 11
+    },
+    {
+      "userId": 3,
+      "address": "124 Wilbert Rd",
+      "description": "Need all of my property done",
+      "scheduledDate": "2022-10-13",
+      "locationId": 1,
+      "acreage": 5,
+      "frequencyId": 2,
+      "dateCompleted": "",
+      "id": 12
+    },
+    {
+      "userId": 13,
+      "address": "124 Wilbert Rd",
+      "description": "Just need my ditch cleaned of weeds",
+      "locationId": 1,
+      "acreage": 0.5,
+      "frequencyId": 1,
+      "dateCompleted": "Mon Oct 03 2022",
+      "id": 13
+    }
+  ],
+  "assignedListings": [
+    {
+      "id": 1,
+      "listingId": 1,
+      "providerId": 1
+    },
+    {
+      "providerId": 1,
+      "listingId": 3,
+      "id": 2
+    },
+    {
+      "providerId": 1,
+      "listingId": 4,
+      "id": 3
+    },
+    {
+      "providerId": 1,
+      "listingId": 5,
+      "id": 4
+    },
+    {
+      "providerId": 1,
+      "listingId": 2,
+      "id": 5
+    },
+    {
+      "providerId": 1,
+      "listingId": 6,
+      "id": 6
+    },
+    {
+      "providerId": 1,
+      "listingId": 9,
+      "id": 7
+    },
+    {
+      "providerId": 1,
+      "listingId": 11,
+      "id": 8
+    },
+    {
+      "providerId": 1,
+      "listingId": 7,
+      "id": 9
+    },
+    {
+      "providerId": 1,
+      "listingId": 10,
+      "id": 10
+    },
+    {
+      "providerId": 1,
+      "listingId": 13,
+      "id": 11
+    }
+  ]
+}
